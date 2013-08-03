@@ -10,7 +10,7 @@ Before you can begin collecting metrics data, you need to set up a GoogleAnalyti
 This plugin is based on [plugman](https://github.com/apache/cordova-plugman). to install it to your app,
 simply execute plugman as follows;
 
-	plugman --platform [PLATFORM] --project [TARGET-PATH] --plugin [PLUGIN-PATH]
+	plugman install --platform [PLATFORM] --project [TARGET-PATH] --plugin [PLUGIN-PATH]
 
 	where
 		[PLATFORM] = ios or android
